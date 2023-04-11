@@ -1,2 +1,10 @@
 mySecretkey.txt
-/flask
+flaskEnv/
+.DS_Store
+.env
+.flaskenv
+*.pyc
+*.pyo
+env/
+venv/
+.venv/
