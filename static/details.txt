@@ -1,0 +1,4 @@
+Welcome to my page my name is Karen!
+I am a junior at UTRGV working towards a bachelor's in Computer Science with a minor in Criminal Justice.
+Currently I am taking CSCI 3329 with Dr. Erik Enriquez.
+I have a ceritficate in Python but this class is still a bit difficult.

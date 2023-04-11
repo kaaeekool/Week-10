@@ -1,0 +1,27 @@
+<!-- We have two variables with info: infoA, and infoB -->
+<!-- 
+    <p> {{infoA}} </p>
+<p> {{infoB}} </p>
+<div align = "text-align: right"> 
+    <img src = '\static\cooldog.jpg' style='width: 45%'></img>
+</div>
+-->
+
+<head>
+    <link rel ="stylesheet" type="text/css" href="/static/basic.css">
+    <title>{{ name }}</title>
+</head>
+
+<body>
+    <div class = content>
+
+    </div>
+    <p> {{name}} </p>
+    {% for thing in aboutMe %}
+        <p>{{ thing }}</p>
+    {% endfor %}
+    <div style = "text-align: right;"> 
+        <img src = '\static\cooldog.jpg' style='width: 45%'></img>
+    </div>
+</body>
+
