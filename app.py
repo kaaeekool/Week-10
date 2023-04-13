@@ -21,7 +21,7 @@ def homeInfo():
     details = readDetails('static/details.txt')
     return render_template("home.html", name = name, aboutMe = details)
 
-@app.route('/form', methods = ['GET', 'POST'])
+@app.route('/messages', methods = ['GET', 'POST'])
 def formDemo():
     name = None
     if request.method == 'POST':
